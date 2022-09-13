@@ -1,2 +1,5 @@
-text = "Hello world!"
-print(text)
+def printText(text):
+    return f"{text} World!"
+
+text = input().title()
+print(printText(text=text))
